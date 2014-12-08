@@ -2,6 +2,7 @@
 
 An Ruboty Handler + Actions to show all help commands that match &lt;query&gt;.
 
+[![Gem Version](https://badge.fury.io/rb/ruboty-help_query.svg)](http://badge.fury.io/rb/ruboty-help_query)
 [![Build Status](https://travis-ci.org/tbpgr/ruboty-help_query.png?branch=master)](https://travis-ci.org/tbpgr/ruboty-help_query)
 [![Coverage Status](https://coveralls.io/repos/tbpgr/ruboty-help_query/badge.png)](https://coveralls.io/r/tbpgr/ruboty-help_query)
 
