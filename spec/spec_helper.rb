@@ -9,7 +9,7 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
 SimpleCov.start do
   add_filter '/spec/'
 end
-require 'ruboty/qiita_scouter'
+require 'ruboty/help_query'
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true
   config.run_all_when_everything_filtered = true

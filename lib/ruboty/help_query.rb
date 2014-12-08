@@ -1,3 +1,4 @@
+require 'ruboty'
 require 'ruboty/help_query/version'
 require 'ruboty/handlers/help_query'
 

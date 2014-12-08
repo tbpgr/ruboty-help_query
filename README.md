@@ -2,6 +2,9 @@
 
 An Ruboty Handler + Actions to show all help commands that match &lt;query&gt;.
 
+[![Build Status](https://travis-ci.org/tbpgr/ruboty-help_query.png?branch=master)](https://travis-ci.org/tbpgr/ruboty-help_query)
+[![Coverage Status](https://coveralls.io/repos/tbpgr/ruboty-help_query/badge.png)](https://coveralls.io/r/tbpgr/ruboty-help_query)
+
 [Ruboty](https://github.com/r7kamura/ruboty) is Chat bot framework. Ruby + Bot = Ruboty
 
 ## Installation

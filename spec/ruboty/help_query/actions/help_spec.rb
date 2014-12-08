@@ -1,5 +1,6 @@
 # encoding: utf-8
 require 'spec_helper'
+require 'ruboty'
 require 'ruboty/help_query/actions/help'
 
 # rubocop:disable LineLength, UnusedMethodArgument
@@ -32,9 +33,9 @@ describe Ruboty::HelpQuery::Actions::Help do
         case_title: 'exist user case',
         query: '.*p.*',
         expected: <<-EOS
-robot /help\\s*(?<query>.*)\\z/      - Show all help commands that match <query>.
-robot /help( me)?\\z/i              - Show this help message
-robot /ping\\z/i                    - Return PONG to PING
+robot /help\\s*(?<query>.*)\\z/ - Show all help commands that match <query>.
+robot /help( me)?\\z/i         - Show this help message
+robot /ping\\z/i               - Return PONG to PING
         EOS
       },
       {
@@ -42,7 +43,7 @@ robot /ping\\z/i                    - Return PONG to PING
         case_title: 'not exist user case',
         query: 'ping',
         expected: <<-EOS
-robot /ping\\z/i                    - Return PONG to PING
+robot /ping\\z/i               - Return PONG to PING
         EOS
       }
     ]
