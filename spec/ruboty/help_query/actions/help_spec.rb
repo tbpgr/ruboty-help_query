@@ -33,7 +33,7 @@ describe Ruboty::HelpQuery::Actions::Help do
         case_title: 'exist user case',
         query: '.*p.*',
         expected: <<-EOS
-robot /help\\s*(?<query>.*)\\z/ - Show all help commands that match <query>.
+robot /help\\s*(?<query>.+)\\z/ - Show all help commands that match <query>.
 robot /help( me)?\\z/i         - Show this help message
 robot /ping\\z/i               - Return PONG to PING
         EOS

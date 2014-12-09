@@ -29,7 +29,7 @@ Or install it yourself as:
 
 |Command|Pattern|Description|
 |:--|:--|:--|
-|help|/help *(?&lt;query&gt;.*)\z/|Show all help commands that match &lt;query&gt;.|
+|help|/help *(?&lt;query&gt;.+)\z/|Show all help commands that match &lt;query&gt;.|
 
 ## Usage
 ### help

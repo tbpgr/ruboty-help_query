@@ -5,7 +5,7 @@ module Ruboty
     # HelpQuery
     class HelpQuery < Base
       on(
-        /help\s*(?<query>.*)\z/,
+        /help\s*(?<query>.+)\z/,
         name: 'help',
         description: 'Show all help commands that match <query>.'
       )
