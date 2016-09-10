@@ -1,6 +1,6 @@
 # Ruboty::HelpQuery
 
-An Ruboty Handler + Actions to show all help commands that match &lt;query&gt;.
+A Ruboty Handler + Actions to show all help commands that match &lt;query&gt;.
 
 :warning: Duplicated. Because ruboty-help supported filter from 2015/03.
 
